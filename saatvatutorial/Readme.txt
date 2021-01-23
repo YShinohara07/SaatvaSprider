@@ -2,6 +2,9 @@ display the expectation of scrappy
     Define website link
     Scrappy goes to the website 
     Extracts the data in “xpath”
+Execute:
+    Scrapy crawl saatvatutorial
+    View csv file
 
 Step 0: design what information you want to display
     https://www.saatva.com/mattresses/saatva-classic 

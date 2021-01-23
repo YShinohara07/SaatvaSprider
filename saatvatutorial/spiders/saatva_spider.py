@@ -6,6 +6,10 @@ from saatvatutorial.items import SaatvatutorialItem
 # create spider class
 class SaatvaSpider(scrapy.Spider):
     # set any number of global variables needed
+
+    # Name your spider when you execute: scrapy crawl name
+    name = "saatvatutorial"
+
     # Global variables are needed to for your website link
     url = ['https://www.saatva.com/mattresses/saatva-classic']
     
@@ -30,4 +34,4 @@ class SaatvaSpider(scrapy.Spider):
         yield item
 
         # Set up the file pipelines.py
-        # Adjust settings.py: turn on download delay
+        # Adjust settings.py: turn on download delay, change item_pipelines to writeitempipeline

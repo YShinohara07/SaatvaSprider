@@ -20,6 +20,8 @@ class ValidateItemPipeline(object):
             raise DropItem("Missing values!")
         else:
             return item
+
+# you can keep the class name as SaatvatutorialPipeline
 class WriteItemPipeline(object):
     def __init__(self):
         self.filename = 'saatvaspider.csv'
