@@ -1,3 +1,4 @@
+DEMO:
 display the expectation of scrappy
     Define website link
     Scrappy goes to the website 
@@ -11,9 +12,12 @@ Step 0: design what information you want to display
         Mattress name
         size
         price
-NOTE: Scrapy does not work on the saatva website!!!!!
+NOTE: Scrapy does not 100% work on the saatva website!!!!!
 
-Install scrapy: Pip install scrapy
+----------------------------------
+Open your terminal/Command Prompt. PLEASE USE https://docs.scrapy.org/en/latest/intro/tutorial.html
+
+Install scrapy using " Pip install scrapy "
 
 Change directory to desired location:
     Ls to check files
@@ -22,6 +26,7 @@ Change directory to desired location:
         Scrapy startproject saatvaproj
     Create spider file
         saatvaproj/spiders/ new_py_file.py
+
 Code!
     Import scrapy
     Create class
